@@ -1,0 +1,245 @@
+/*350*/
+@media (max-width: 1300px) {
+  
+  nav .container .logo{
+    width: 25%;
+}
+
+ nav .container .links ul{
+    position:absolute;
+    background-color: #333;
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%,100%);
+    width: 80%;
+    height: 0;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 0px; 
+    border-radius: 10px;
+    row-gap: 20px;
+     overflow: hidden;
+    transition-duration: 1s;       
+} 
+nav .container .burger:focus+ul{
+    height: 252.2px;
+    padding: 20px 0px; 
+}
+
+nav .container .burger{
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav .container .burger span{
+    display: block;
+    width: 65%;
+    height: 2px;
+    background-color: var(--main-color);
+}
+ 
+    header .content h4{
+    font-size: 20px;
+    
+}
+header .content h1{
+    
+    font-size: 40px;
+    
+    
+} 
+header .content p{
+    font-size: 16px;
+} 
+#About .container{
+    flex-wrap: wrap;
+}
+#About .container .part1{
+    margin-bottom: 15px;
+}
+#About .container .part1 .frame{
+    width: 280px;
+}
+#About .container .part1,
+#About .container .part2{
+    width: 100%;
+}
+#About .container .part2 .info .col{
+    width: 100%;
+}
+#Services .content .box{
+    width: 100%;
+}
+#Services .content .box:not(:last-child){
+    margin-bottom: 30px;
+}
+.title h2{
+    font-size: 30px;
+}
+#Portfolio .content .box{
+    width: 100%;
+}
+#Portfolio .content .box .layout h3{
+    font-size: 15px;
+}
+#Portfolio .content .box .layout a{
+    font-size: 10px;
+}
+#Blog .container .content .box{
+    width: 100%;
+}
+#Blog .container .content .box:not(:last-child){
+    margin-bottom: 20px;
+}
+#Blog .container .content .box .item{
+    width: 280px;
+}
+#ContactUs .content form .box:nth-of-type(1),
+#ContactUs .content form .box:nth-of-type(2)
+{
+    width: 100%;
+}
+#ContactUs .content form .box:nth-of-type(1) .item,
+#ContactUs .content form .box:nth-of-type(2) .item{
+    margin: 0;
+}
+#ContactUs .content form button{
+    width: 100%;
+}
+footer p{
+    font-size: 12px;
+}
+}
+
+
+/*450*/
+@media (min-width: 371px) and (max-width: 1300px) {
+        nav .container .logo{
+            width: 20%;
+}
+    header .content h4{
+         font-size: 30px; 
+}
+header .content h1{
+    font-size: 50px;
+} 
+header .content p{
+    font-size: 20px;
+} 
+#Services .content .box .item{
+    width: 280px;
+    margin: auto;
+}
+footer p{
+    font-size: 15px;
+}
+}
+
+/*650*/
+@media (min-width: 577px) and (max-width: 1300px) {
+         nav .container .logo{
+    width: 16%;
+}
+    header .content h4{
+         font-size: 50px;
+}
+header .content h1{
+    font-size: 70px;   
+} 
+header .content p{
+    font-size: 30px;
+} 
+#About .container .part2 .info .col{
+    width: 50%;
+}
+#Services .content .box {
+    width: 50%;
+}
+#Services .content .box .item{
+    width: initial;
+    margin-inline: 10px;
+}
+.title h2{
+    font-size: 40px;
+}
+#Portfolio .content .box{
+    width: 50%;
+}
+#Blog .container .content .box{
+    width: 50%;
+}
+#Blog .container .content .box .item{
+    width: initial;
+    margin: 0px 10px;
+}
+}
+
+/*850*/
+@media (min-width: 769px) and (max-width: 1300px) {
+     nav .container .logo{
+    width: 12%;
+}
+#About .container .part1,
+#About .container .part2{
+    width: 50%;
+}
+#About .container .part2 .info .col h6,
+#About .container .part2 .info .col p{
+    font-size: 12px;
+}
+#Services .content .box .item{
+    width: 280px;
+    margin: auto;
+}
+#Blog .container .content .box .item{
+    width:280px;
+    margin:auto;
+}
+#ContactUs .content form .box:nth-of-type(1),
+#ContactUs .content form .box:nth-of-type(2)
+{
+    width: 50%;
+}
+#ContactUs .content form .box:nth-of-type(1) .item{
+    margin-right: 5px;
+}
+#ContactUs .content form .box:nth-of-type(2) .item{
+    margin-left: 5px;
+}
+footer p{
+    font-size: 16px;
+}
+}
+
+/*1050*/
+@media (min-width: 992px) and (max-width: 1300px) {
+ nav .container .logo{
+    width: 8%;
+}
+#Portfolio .content .box{
+    width: 33.33%;
+}
+#Blog .container .content .box{
+    width:33.33%;
+}
+#Blog .container .content .box .item{
+    width: initial;
+    margin: 0px 10px;
+}
+}
+/*1250*/
+@media (min-width: 1181px) and (max-width: 1300px) {
+ nav .container .logo{
+    width: 6%;
+}
+}
+
+
+
