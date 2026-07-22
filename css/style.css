@@ -334,7 +334,6 @@ header a.shape::after{
     display: block;
 }
 #Portfolio .content .box .layout{
-    background-color: rgb(0,0,0,0.5);
     position: absolute;
     top: 0;
     left: 0;
