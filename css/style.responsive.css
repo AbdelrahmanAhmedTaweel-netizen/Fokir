@@ -101,6 +101,9 @@ header .content p{
 #Blog .container .content .box .item{
     width: 280px;
 }
+  #ContactUs .content form{
+    width: 70%;
+  }
 #ContactUs .content form .box:nth-of-type(1),
 #ContactUs .content form .box:nth-of-type(2)
 {
