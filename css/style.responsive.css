@@ -233,6 +233,16 @@ footer p{
     width: initial;
     margin: 0px 10px;
 }
+  #Services .content .box {
+    width:25%;
+}
+#Services .content .box .item{
+    width: initial;
+    margin: 0px 10px;
+}
+#Services .content .box .item h5{
+    font-size: 16px;
+}
 }
 /*1250*/
 @media (min-width: 1181px) and (max-width: 1300px) {
